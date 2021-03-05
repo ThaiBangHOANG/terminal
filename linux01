@@ -1,0 +1,331 @@
+thaibang_dev@:~$ sudo apt-get install -y curl unzip
+[sudo] password for thaibang: 
+Reading package lists... Done
+Building dependency tree       
+Reading state information... Done
+unzip is already the newest version (6.0-25ubuntu1).
+curl is already the newest version (7.68.0-1ubuntu2.2).
+0 upgraded, 0 newly installed, 0 to remove and 0 not upgraded.
+thaibang_dev@:~$ curl -L -o planets.zip https://github.com/WildCodeSchool/quests-resources/blob/master/terminal/planets.zip?raw=true
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+100   148  100   148    0     0    305      0 --:--:-- --:--:-- --:--:--   305
+100   159  100   159    0     0    203      0 --:--:-- --:--:-- --:--:--   203
+100  293k  100  293k    0     0  96352      0  0:00:03  0:00:03 --:--:--  130k
+thaibang_dev@:~$ unzip planets.zip
+Archive:  planets.zip
+   creating: planets/
+  inflating: planets/mercury.jpeg    
+  inflating: planets/earth.jpeg      
+  inflating: planets/pluto.jpeg      
+  inflating: planets/arrakis.jpeg    
+  inflating: planets/jupiter.jpeg    
+  inflating: planets/venus.jpeg      
+  inflating: planets/mars.jpeg       
+  inflating: planets/cybertron.jpeg  
+  inflating: planets/coruscant.jpeg  
+  inflating: planets/uranus.jpeg     
+  inflating: planets/neptune.jpeg    
+  inflating: planets/saturn.jpeg     
+thaibang_dev@:~$ ls
+Desktop  Documents  Downloads  Dropbox  Music  Pictures  planets  planets.zip  snap  terminal2
+thaibang_dev@:~$ ll
+total 476
+drwxr-xr-x 33 thaibang thaibang   4096 Mar  5 22:47 ./
+drwxr-xr-x  4 root     root       4096 Sep  6 17:22 ../
+-rw-------  1 thaibang thaibang   9176 Mar  4 12:28 .bash_history
+-rw-r--r--  1 thaibang thaibang    220 Sep  6 17:22 .bash_logout
+-rw-r--r--  1 thaibang thaibang   3773 Mar  2 23:12 .bashrc
+drwx------ 28 thaibang thaibang   4096 Mar  2 11:42 .cache/
+drwx------ 36 thaibang thaibang   4096 Mar  5 20:04 .config/
+drwx------  2 thaibang thaibang   4096 Sep 15 13:40 .cups/
+drwxr-xr-x  5 thaibang thaibang   4096 Mar  5 22:17 Desktop/
+drwxr-xr-x  5 thaibang thaibang   4096 Feb 18 13:45 Documents/
+drwxr-xr-x  7 thaibang thaibang  12288 Mar  4 18:12 Downloads/
+drwx------  8 thaibang thaibang   4096 Mar  5 09:00 .dropbox/
+drwx------  7 thaibang thaibang   4096 Mar  5 09:00 Dropbox/
+drwxrwxr-x  3 thaibang thaibang   4096 Mar  3 03:56 .dropbox-dist/
+drwxrwxr-x  7 thaibang thaibang   4096 Mar  3 16:56 .git/
+-rw-rw-r--  1 thaibang thaibang     59 Mar  2 22:54 .gitconfig
+drwx------  3 thaibang thaibang   4096 Oct 22 09:28 .gnome/
+drwx------  3 thaibang thaibang   4096 Mar  4 10:49 .gnupg/
+drwxrwxr-x  4 thaibang thaibang   4096 Oct  3 23:15 .goldendict/
+drwxrwxr-x  2 thaibang thaibang   4096 Nov 17 19:57 .gphoto/
+drwxr-xr-x  3 thaibang thaibang   4096 Sep  6 19:21 .local/
+drwx------  5 thaibang thaibang   4096 Sep  6 19:25 .mozilla/
+drwxr-xr-x  2 thaibang thaibang   4096 Sep  6 19:21 Music/
+-rw-------  1 thaibang thaibang    140 Oct 21 07:06 .node_repl_history
+drwxrwxr-x  5 thaibang thaibang   4096 Mar  5 17:48 .npm/
+drwx------  4 thaibang thaibang   4096 Sep  6 20:30 .nv/
+-rw-rw-r--  1 thaibang thaibang    656 Sep  7 15:01 .nvidia-settings-rc
+drwxrwxr-x 12 thaibang thaibang   4096 Jan  1 05:52 .openshot_qt/
+-rw-r--r--  1 thaibang thaibang    310 Sep  6 22:34 .pam_environment
+drwxr-xr-x  3 thaibang thaibang   4096 Mar  3 21:00 Pictures/
+drwx------  3 thaibang thaibang   4096 Sep  6 21:36 .pki/
+drwxr-xr-x  2 thaibang thaibang   4096 Feb 25  2019 planets/
+-rw-rw-r--  1 thaibang thaibang 300234 Mar  5 22:47 planets.zip
+drwxrwxr-x 14 thaibang thaibang   4096 Sep  7 14:57 .PlayOnLinux/
+-rw-r--r--  1 thaibang thaibang    807 Sep  6 17:22 .profile
+drwxr-xr-x 10 thaibang thaibang   4096 Feb 11 22:35 snap/
+drwx------  2 thaibang thaibang   4096 Mar  4 11:15 .ssh/
+-rw-r--r--  1 thaibang thaibang      0 Sep  6 22:30 .sudo_as_admin_successful
+drwxrwxr-x  4 thaibang thaibang   4096 Mar  5 22:27 terminal2/
+drwx------  6 thaibang thaibang   4096 Sep  6 20:33 .thunderbird/
+drwxr-xr-x  2 thaibang games      4096 Nov 15 20:12 .tuxtype/
+drwxrwxr-x  3 thaibang thaibang   4096 Sep  6 21:36 .vscode/
+drwxrwxr-x  4 thaibang thaibang   4096 Sep  7 14:15 .wine/
+thaibang_dev@:~$ pwd
+/home/thaibang
+thaibang_dev@:~$ cd ..
+thaibang_dev@:/home$ cd thaibang
+thaibang_dev@:~$ ls
+Desktop  Documents  Downloads  Dropbox  Music  Pictures  planets  planets.zip  snap  terminal2
+thaibang_dev@:~$ cd planets
+thaibang_dev@:~/planets$ ls
+arrakis.jpeg    cybertron.jpeg  jupiter.jpeg  mercury.jpeg  pluto.jpeg   uranus.jpeg
+coruscant.jpeg  earth.jpeg      mars.jpeg     neptune.jpeg  saturn.jpeg  venus.jpeg
+thaibang_dev@:~/planets$ mkdir planets/real/fictional/inhabited
+mkdir: cannot create directory ‘planets/real/fictional/inhabited’: No such file or directory
+thaibang_dev@:~/planets$ cd ..
+thaibang_dev@:~$ mkdir planets/real/fictional/inhabited
+mkdir: cannot create directory ‘planets/real/fictional/inhabited’: No such file or directory
+thaibang_dev@:~$ mkdir planets real/fictional/inhabited
+mkdir: cannot create directory ‘planets’: File exists
+mkdir: cannot create directory ‘real/fictional/inhabited’: No such file or directory
+thaibang_dev@:~$ cd planets
+thaibang_dev@:~/planets$ mkdir real
+thaibang_dev@:~/planets$ mkdir fictional
+thaibang_dev@:~/planets$ mkdir inhabited
+thaibang_dev@:~/planets$ ls
+arrakis.jpeg    cybertron.jpeg  fictional  jupiter.jpeg  mercury.jpeg  pluto.jpeg  saturn.jpeg  venus.jpeg
+coruscant.jpeg  earth.jpeg      inhabited  mars.jpeg     neptune.jpeg  real        uranus.jpeg
+thaibang_dev@:~/planets$ cd real
+thaibang_dev@:~/planets/real$ pwd
+/home/thaibang/planets/real
+thaibang_dev@:~/planets/real$ mkdir terrestrial gas-giants dwarf-planets
+thaibang_dev@:~/planets/real$ ls
+dwarf-planets  gas-giants  terrestrial
+thaibang_dev@:~/planets/real$ pwd
+/home/thaibang/planets/real
+thaibang_dev@:~/planets/real$ cd ..
+thaibang_dev@:~/planets$ pwd
+/home/thaibang/planets
+thaibang_dev@:~/planets$ mv earth.jpeg real
+thaibang_dev@:~/planets$ cd real
+thaibang_dev@:~/planets/real$ ls
+dwarf-planets  earth.jpeg  gas-giants  terrestrial
+thaibang_dev@:~/planets/real$ cd ..
+thaibang_dev@:~/planets$ mv mars.jpeg real
+thaibang_dev@:~/planets$ mv neptune.jpeg real
+thaibang_dev@:~/planets$ cd real
+thaibang_dev@:~/planets/real$ ls
+dwarf-planets  earth.jpeg  gas-giants  mars.jpeg  neptune.jpeg  terrestrial
+thaibang_dev@:~/planets/real$ cd ..
+thaibang_dev@:~/planets$ ls
+arrakis.jpeg    cybertron.jpeg  inhabited     mercury.jpeg  real         uranus.jpeg
+coruscant.jpeg  fictional       jupiter.jpeg  pluto.jpeg    saturn.jpeg  venus.jpeg
+thaibang_dev@:~/planets$ rm earth.jpeg mars.jpeg neptune.jpeg
+rm: cannot remove 'earth.jpeg': No such file or directory
+rm: cannot remove 'mars.jpeg': No such file or directory
+rm: cannot remove 'neptune.jpeg': No such file or directory
+thaibang_dev@:~/planets$ rm earth.jpeg
+rm: cannot remove 'earth.jpeg': No such file or directory
+thaibang_dev@:~/planets$ mv cybertron.jpeg fictional
+thaibang_dev@:~/planets$ mv arrakis.jpeg fictional
+thaibang_dev@:~/planets$ mv coruscant.jpeg fictional
+thaibang_dev@:~/planets$ cd fictional
+thaibang_dev@:~/planets/fictional$ ls
+arrakis.jpeg  coruscant.jpeg  cybertron.jpeg
+thaibang_dev@:~/planets/fictional$ cd real
+bash: cd: real: No such file or directory
+thaibang_dev@:~/planets/fictional$ cd ..
+thaibang_dev@:~/planets$ cd real
+thaibang_dev@:~/planets/real$ ls
+dwarf-planets  earth.jpeg  gas-giants  mars.jpeg  neptune.jpeg  terrestrial
+thaibang_dev@:~/planets/real$ cd ..
+thaibang_dev@:~/planets$ ls
+fictional  inhabited  jupiter.jpeg  mercury.jpeg  pluto.jpeg  real  saturn.jpeg  uranus.jpeg  venus.jpeg
+thaibang_dev@:~/planets$ cp jupiter.jpeg inhabited
+thaibang_dev@:~/planets$ cp mercury.jpeg inhabited
+thaibang_dev@:~/planets$ cp saturn.jpeg inhabited
+thaibang_dev@:~/planets$ cp venus.jpeg inhabited
+thaibang_dev@:~/planets$ rm pluto.jpeg
+thaibang_dev@:~/planets$ ls
+fictional  inhabited  jupiter.jpeg  mercury.jpeg  real  saturn.jpeg  uranus.jpeg  venus.jpeg
+thaibang_dev@:~/planets$ cd inhabited
+thaibang_dev@:~/planets/inhabited$ ls
+jupiter.jpeg  mercury.jpeg  saturn.jpeg  venus.jpeg
+thaibang_dev@:~/planets/inhabited$ find
+.
+./jupiter.jpeg
+./saturn.jpeg
+./mercury.jpeg
+./venus.jpeg
+thaibang_dev@:~/planets/inhabited$ 
+thaibang_dev@:~$ sudo apt-get install -y curl unzip
+[sudo] password for thaibang: 
+Reading package lists... Done
+Building dependency tree       
+Reading state information... Done
+unzip is already the newest version (6.0-25ubuntu1).
+curl is already the newest version (7.68.0-1ubuntu2.2).
+0 upgraded, 0 newly installed, 0 to remove and 0 not upgraded.
+thaibang_dev@:~$ curl -L -o planets.zip https://github.com/WildCodeSchool/quests-resources/blob/master/terminal/planets.zip?raw=true
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+100   148  100   148    0     0    305      0 --:--:-- --:--:-- --:--:--   305
+100   159  100   159    0     0    203      0 --:--:-- --:--:-- --:--:--   203
+100  293k  100  293k    0     0  96352      0  0:00:03  0:00:03 --:--:--  130k
+thaibang_dev@:~$ unzip planets.zip
+Archive:  planets.zip
+   creating: planets/
+  inflating: planets/mercury.jpeg    
+  inflating: planets/earth.jpeg      
+  inflating: planets/pluto.jpeg      
+  inflating: planets/arrakis.jpeg    
+  inflating: planets/jupiter.jpeg    
+  inflating: planets/venus.jpeg      
+  inflating: planets/mars.jpeg       
+  inflating: planets/cybertron.jpeg  
+  inflating: planets/coruscant.jpeg  
+  inflating: planets/uranus.jpeg     
+  inflating: planets/neptune.jpeg    
+  inflating: planets/saturn.jpeg     
+thaibang_dev@:~$ ls
+Desktop  Documents  Downloads  Dropbox  Music  Pictures  planets  planets.zip  snap  terminal2
+thaibang_dev@:~$ ll
+total 476
+drwxr-xr-x 33 thaibang thaibang   4096 Mar  5 22:47 ./
+drwxr-xr-x  4 root     root       4096 Sep  6 17:22 ../
+-rw-------  1 thaibang thaibang   9176 Mar  4 12:28 .bash_history
+-rw-r--r--  1 thaibang thaibang    220 Sep  6 17:22 .bash_logout
+-rw-r--r--  1 thaibang thaibang   3773 Mar  2 23:12 .bashrc
+drwx------ 28 thaibang thaibang   4096 Mar  2 11:42 .cache/
+drwx------ 36 thaibang thaibang   4096 Mar  5 20:04 .config/
+drwx------  2 thaibang thaibang   4096 Sep 15 13:40 .cups/
+drwxr-xr-x  5 thaibang thaibang   4096 Mar  5 22:17 Desktop/
+drwxr-xr-x  5 thaibang thaibang   4096 Feb 18 13:45 Documents/
+drwxr-xr-x  7 thaibang thaibang  12288 Mar  4 18:12 Downloads/
+drwx------  8 thaibang thaibang   4096 Mar  5 09:00 .dropbox/
+drwx------  7 thaibang thaibang   4096 Mar  5 09:00 Dropbox/
+drwxrwxr-x  3 thaibang thaibang   4096 Mar  3 03:56 .dropbox-dist/
+drwxrwxr-x  7 thaibang thaibang   4096 Mar  3 16:56 .git/
+-rw-rw-r--  1 thaibang thaibang     59 Mar  2 22:54 .gitconfig
+drwx------  3 thaibang thaibang   4096 Oct 22 09:28 .gnome/
+drwx------  3 thaibang thaibang   4096 Mar  4 10:49 .gnupg/
+drwxrwxr-x  4 thaibang thaibang   4096 Oct  3 23:15 .goldendict/
+drwxrwxr-x  2 thaibang thaibang   4096 Nov 17 19:57 .gphoto/
+drwxr-xr-x  3 thaibang thaibang   4096 Sep  6 19:21 .local/
+drwx------  5 thaibang thaibang   4096 Sep  6 19:25 .mozilla/
+drwxr-xr-x  2 thaibang thaibang   4096 Sep  6 19:21 Music/
+-rw-------  1 thaibang thaibang    140 Oct 21 07:06 .node_repl_history
+drwxrwxr-x  5 thaibang thaibang   4096 Mar  5 17:48 .npm/
+drwx------  4 thaibang thaibang   4096 Sep  6 20:30 .nv/
+-rw-rw-r--  1 thaibang thaibang    656 Sep  7 15:01 .nvidia-settings-rc
+drwxrwxr-x 12 thaibang thaibang   4096 Jan  1 05:52 .openshot_qt/
+-rw-r--r--  1 thaibang thaibang    310 Sep  6 22:34 .pam_environment
+drwxr-xr-x  3 thaibang thaibang   4096 Mar  3 21:00 Pictures/
+drwx------  3 thaibang thaibang   4096 Sep  6 21:36 .pki/
+drwxr-xr-x  2 thaibang thaibang   4096 Feb 25  2019 planets/
+-rw-rw-r--  1 thaibang thaibang 300234 Mar  5 22:47 planets.zip
+drwxrwxr-x 14 thaibang thaibang   4096 Sep  7 14:57 .PlayOnLinux/
+-rw-r--r--  1 thaibang thaibang    807 Sep  6 17:22 .profile
+drwxr-xr-x 10 thaibang thaibang   4096 Feb 11 22:35 snap/
+drwx------  2 thaibang thaibang   4096 Mar  4 11:15 .ssh/
+-rw-r--r--  1 thaibang thaibang      0 Sep  6 22:30 .sudo_as_admin_successful
+drwxrwxr-x  4 thaibang thaibang   4096 Mar  5 22:27 terminal2/
+drwx------  6 thaibang thaibang   4096 Sep  6 20:33 .thunderbird/
+drwxr-xr-x  2 thaibang games      4096 Nov 15 20:12 .tuxtype/
+drwxrwxr-x  3 thaibang thaibang   4096 Sep  6 21:36 .vscode/
+drwxrwxr-x  4 thaibang thaibang   4096 Sep  7 14:15 .wine/
+thaibang_dev@:~$ pwd
+/home/thaibang
+thaibang_dev@:~$ cd ..
+thaibang_dev@:/home$ cd thaibang
+thaibang_dev@:~$ ls
+Desktop  Documents  Downloads  Dropbox  Music  Pictures  planets  planets.zip  snap  terminal2
+thaibang_dev@:~$ cd planets
+thaibang_dev@:~/planets$ ls
+arrakis.jpeg    cybertron.jpeg  jupiter.jpeg  mercury.jpeg  pluto.jpeg   uranus.jpeg
+coruscant.jpeg  earth.jpeg      mars.jpeg     neptune.jpeg  saturn.jpeg  venus.jpeg
+thaibang_dev@:~/planets$ mkdir planets/real/fictional/inhabited
+mkdir: cannot create directory ‘planets/real/fictional/inhabited’: No such file or directory
+thaibang_dev@:~/planets$ cd ..
+thaibang_dev@:~$ mkdir planets/real/fictional/inhabited
+mkdir: cannot create directory ‘planets/real/fictional/inhabited’: No such file or directory
+thaibang_dev@:~$ mkdir planets real/fictional/inhabited
+mkdir: cannot create directory ‘planets’: File exists
+mkdir: cannot create directory ‘real/fictional/inhabited’: No such file or directory
+thaibang_dev@:~$ cd planets
+thaibang_dev@:~/planets$ mkdir real
+thaibang_dev@:~/planets$ mkdir fictional
+thaibang_dev@:~/planets$ mkdir inhabited
+thaibang_dev@:~/planets$ ls
+arrakis.jpeg    cybertron.jpeg  fictional  jupiter.jpeg  mercury.jpeg  pluto.jpeg  saturn.jpeg  venus.jpeg
+coruscant.jpeg  earth.jpeg      inhabited  mars.jpeg     neptune.jpeg  real        uranus.jpeg
+thaibang_dev@:~/planets$ cd real
+thaibang_dev@:~/planets/real$ pwd
+/home/thaibang/planets/real
+thaibang_dev@:~/planets/real$ mkdir terrestrial gas-giants dwarf-planets
+thaibang_dev@:~/planets/real$ ls
+dwarf-planets  gas-giants  terrestrial
+thaibang_dev@:~/planets/real$ pwd
+/home/thaibang/planets/real
+thaibang_dev@:~/planets/real$ cd ..
+thaibang_dev@:~/planets$ pwd
+/home/thaibang/planets
+thaibang_dev@:~/planets$ mv earth.jpeg real
+thaibang_dev@:~/planets$ cd real
+thaibang_dev@:~/planets/real$ ls
+dwarf-planets  earth.jpeg  gas-giants  terrestrial
+thaibang_dev@:~/planets/real$ cd ..
+thaibang_dev@:~/planets$ mv mars.jpeg real
+thaibang_dev@:~/planets$ mv neptune.jpeg real
+thaibang_dev@:~/planets$ cd real
+thaibang_dev@:~/planets/real$ ls
+dwarf-planets  earth.jpeg  gas-giants  mars.jpeg  neptune.jpeg  terrestrial
+thaibang_dev@:~/planets/real$ cd ..
+thaibang_dev@:~/planets$ ls
+arrakis.jpeg    cybertron.jpeg  inhabited     mercury.jpeg  real         uranus.jpeg
+coruscant.jpeg  fictional       jupiter.jpeg  pluto.jpeg    saturn.jpeg  venus.jpeg
+thaibang_dev@:~/planets$ rm earth.jpeg mars.jpeg neptune.jpeg
+rm: cannot remove 'earth.jpeg': No such file or directory
+rm: cannot remove 'mars.jpeg': No such file or directory
+rm: cannot remove 'neptune.jpeg': No such file or directory
+thaibang_dev@:~/planets$ rm earth.jpeg
+rm: cannot remove 'earth.jpeg': No such file or directory
+thaibang_dev@:~/planets$ mv cybertron.jpeg fictional
+thaibang_dev@:~/planets$ mv arrakis.jpeg fictional
+thaibang_dev@:~/planets$ mv coruscant.jpeg fictional
+thaibang_dev@:~/planets$ cd fictional
+thaibang_dev@:~/planets/fictional$ ls
+arrakis.jpeg  coruscant.jpeg  cybertron.jpeg
+thaibang_dev@:~/planets/fictional$ cd real
+bash: cd: real: No such file or directory
+thaibang_dev@:~/planets/fictional$ cd ..
+thaibang_dev@:~/planets$ cd real
+thaibang_dev@:~/planets/real$ ls
+dwarf-planets  earth.jpeg  gas-giants  mars.jpeg  neptune.jpeg  terrestrial
+thaibang_dev@:~/planets/real$ cd ..
+thaibang_dev@:~/planets$ ls
+fictional  inhabited  jupiter.jpeg  mercury.jpeg  pluto.jpeg  real  saturn.jpeg  uranus.jpeg  venus.jpeg
+thaibang_dev@:~/planets$ cp jupiter.jpeg inhabited
+thaibang_dev@:~/planets$ cp mercury.jpeg inhabited
+thaibang_dev@:~/planets$ cp saturn.jpeg inhabited
+thaibang_dev@:~/planets$ cp venus.jpeg inhabited
+thaibang_dev@:~/planets$ rm pluto.jpeg
+thaibang_dev@:~/planets$ ls
+fictional  inhabited  jupiter.jpeg  mercury.jpeg  real  saturn.jpeg  uranus.jpeg  venus.jpeg
+thaibang_dev@:~/planets$ cd inhabited
+thaibang_dev@:~/planets/inhabited$ ls
+jupiter.jpeg  mercury.jpeg  saturn.jpeg  venus.jpeg
+thaibang_dev@:~/planets/inhabited$ find
+.
+./jupiter.jpeg
+./saturn.jpeg
+./mercury.jpeg
+./venus.jpeg
+thaibang_dev@:~/planets/inhabited$ 
+thaibang_dev@:~/planets/inhabited$ cd ..
+thaibang_dev@:~/planets$ cd ..
+thaibang_dev@:~$ 
