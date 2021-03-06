@@ -328,4 +328,17 @@ thaibang_dev@:~/planets/inhabited$ find
 thaibang_dev@:~/planets/inhabited$ 
 thaibang_dev@:~/planets/inhabited$ cd ..
 thaibang_dev@:~/planets$ cd ..
-thaibang_dev@:~$ 
+thaibang_dev@:~$
+
+thaibang_dev@:~/WCS/quest1$ find . -type d
+.
+./planets
+./inhabited
+./real
+./real/terrestrial
+./real/gas-giants
+./real/dwarf-planets
+./fictional
+thaibang_dev@:~/WCS/quest1$ 
+
+
